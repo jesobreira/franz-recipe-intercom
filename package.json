@@ -1,0 +1,24 @@
+{
+  "id": "intercom",
+  "name": "Intercom",
+  "version": "1.0.0",
+  "description": "Intercom",
+  "main": "index.js",
+  "author": "Jefrey Santos <jefrey.santos@capitual.com>",
+  "repository": "https://github.com/jesobreira/franz-recipe-intercom",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://app.intercom.io/",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "hasPredefinedUrl": true,
+    "hasCustomUrl": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    }
+  }
+}
